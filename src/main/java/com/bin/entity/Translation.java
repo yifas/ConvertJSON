@@ -5,6 +5,7 @@ import lombok.Data;
 
 import java.io.Serializable;
 /*
+翻译对象
 无法直接封装  需要另一张表
 使用主表的wordRank作为外键
  */
@@ -45,5 +46,6 @@ public class Translation implements Serializable {
      */
     private String tranOther;
 
+    //逻辑外键  wordRank
 
 }
